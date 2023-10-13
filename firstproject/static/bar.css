@@ -1,0 +1,27 @@
+body{
+    background:darkblue;
+    }
+    h4{
+    color:white;
+    }
+    .progress-bar{
+    width:50%;
+    height:20px;
+    background:white;
+    padding:20px;
+    }
+    .progress{
+    width:50%;
+    height:20px;
+    background:blue;
+    border-radius:10px;
+    animation: fill 1s linear;
+    }
+    @keyframes fill{
+    0%{
+    width:0%;
+    }
+    100%{
+    width:50%;
+    }
+}

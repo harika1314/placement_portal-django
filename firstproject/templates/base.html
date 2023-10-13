@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2018-2022 Placements</title>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #D0EEF9;
+}
+
+
+tr:nth-child(ODD) {
+  background-color: #F2FAFC;
+}
+</style>
+</head>
+<body>
+
+<h2>LIST OF STUDENTS PLACED 2018-2022</h2>
+
+<table>
+  <tr>
+    <th>SNO</th>
+    <th>COMPANY_NAME</th>
+   </tr>
+  {% block content %}
+  {% for i in obj %} 
+
+  <tr>
+    
+    <td>{{ i.sno}}</td>
+    <td>{{ i.companies}}</td>
+    
+
+    {% endfor %}
+    {% endblock content %}
+  </tr>
+  
+</table>
+
+</body>
+</html>

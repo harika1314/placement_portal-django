@@ -1,0 +1,135 @@
+{% load static %}
+<html>
+    <head>
+        <title>Mock Tests</title>
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        body{
+            background-color: #BCE1F4;
+        }
+        h1{
+                color: darkorange;
+                font-family: "Jost", sans-serif;
+                font-size: 40px;
+                padding-top: 20px;
+            }
+        .aptitude{
+            display: flex;
+            padding: 20px;
+        }
+        .container{
+            width:20%;
+            height:250px;
+            background-color: #041D2A;
+            margin-left: 20px;
+            border-radius: 20px;
+            padding: 20px;
+            cursor: pointer;
+        }
+        .container:hover{
+            background-color: #01141E;
+        }
+        h2{
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-size: 40px;
+            text-align: center;
+            padding: 10px;
+        }
+        span{
+            margin-bottom: 10px;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+        }
+        b{
+            font-weight: 800;
+        }
+        @media (max-width: 576px){
+            .aptitude{
+                position: relative;
+                display: block;
+                align-items: center;
+            }
+            .container{
+                width:90%;
+                height:250px;
+                margin-left: 20px;
+            }
+        }
+        @media (max-width: 736px){
+            .aptitude{
+                position: relative;
+                display: block;
+                align-items: center;
+            }
+            .container{
+                width:90%;
+                height:250px;
+                margin-left: 20px;
+            }
+        }
+        @media (max-width: 992px){
+            
+            .container{
+                width:90%;
+                height:250px;
+                margin-left: 20px;
+            }
+        }
+        @media (max-width: 1200px){
+            
+            .container{
+                width:90%;
+                height:250px;
+                margin-left: 20px;
+            }
+        }
+    </style>
+    <body>
+        <center><h1>Aptitude Tests</h1></center><br>
+        <div class="aptitude">
+        <div class="container">
+            <h2>#Test1</h2>
+            <center><span><b>No.of Questions : </b> 15</span></center>
+            <center><span><b>Time : </b> 20 minutes</span></center>
+            <center><span><b>Type : </b> General Aptitude</span></center>
+        </div><br>
+        <div class="container">
+            <h2>#Test2</h2>
+            <center><span><b>No.of Questions : </b> 15</span></center>
+            <center><span><b>Time : </b> 20 minutes</span></center>
+            <center><span><b>Type : </b> Verbal Ability</span></center>
+        </div><br>
+        <div class="container">
+            <h2>#Test3</h2>
+            <center><span><b>No.of Questions : </b> 2</span></center>
+            <center><span><b>Time : </b> 60 minutes</span></center>
+            <center><span><b>Type : </b> Programming Assessment</span></center>
+        </div><br>
+    </div>
+
+    <center><h1>Coding Tests</h1></center><br>
+        <div class="aptitude">
+        <div class="container">
+            <h2>#Test1</h2>
+            <center><span><b>No.of Questions : </b> 2</span></center>
+            <center><span><b>Time : </b> 60 minutes</span></center>
+            <center><span><b>Type : </b> Programming Assessment</span></center>
+        </div><br>
+        <div class="container">
+            <h2>#Test2</h2>
+            <center><span><b>No.of Questions : </b> 2</span></center>
+            <center><span><b>Time : </b> 60 minutes</span></center>
+            <center><span><b>Type : </b> Programming Assessment</span></center>
+        </div><br>
+        <div class="container">
+            <h2>#Test3</h2>
+            <center><span><b>No.of Questions : </b> 15</span></center>
+            <center><span><b>Time : </b> 20 minutes</span></center>
+            <center><span><b>Type : </b> General Aptitude</span></center>
+        </div><br>
+    </div>
+    </body>
+</html>
